@@ -1,23 +1,25 @@
 # Language Translation Tool
 
 ## Overview
-Language Translation Tool is a Python-based application that allows users to translate text from one language to another using Google Translator API. The project provides a simple and user-friendly graphical interface built with Tkinter.
+A C++ based Language Translation Tool that uses a Translation API to convert text between different languages.
 
 ## Features
-- Translate text instantly between multiple languages
-- Easy-to-use graphical user interface (GUI)
-- Supports source and target language selection
-- Fast and accurate translations
-- Displays translated text clearly
-- Optional support for copy and text-to-speech features
+- Text Translation
+- Multiple Language Support
+- API Integration
+- User-Friendly Interface
 
 ## Technologies Used
-- Python
-- Tkinter
-- Deep Translator (Google Translator API)
+- C++
+- cURL
+- Translation API
 
-## Installation
+## How It Works
+1. Enter text.
+2. Select source language.
+3. Select target language.
+4. Send request to API.
+5. View translated text.
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/language-translation-tool.git
+## Author
+Ayaan Ali
