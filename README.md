@@ -1,25 +1,18 @@
 # Language Translation Tool
 
-## Overview
-A C++ based Language Translation Tool that uses a Translation API to convert text between different languages.
+A Python desktop app with a Tkinter interface for translating text between English, Hindi, French, and Spanish using `deep-translator`.
 
-## Features
-- Text Translation
-- Multiple Language Support
-- API Integration
-- User-Friendly Interface
+## Requirements and run
 
-## Technologies Used
-- C++
-- cURL
-- Translation API
+```bash
+python -m pip install deep-translator
+python "LANGUAGE-TRANSLATION-TOOL.py"
+```
 
-## How It Works
-1. Enter text.
-2. Select source language.
-3. Select target language.
-4. Send request to API.
-5. View translated text.
+Python must include Tkinter. An internet connection is required by the translation service.
 
-## Author
-Ayaan Ali
+## Use
+Enter text, choose a source and target language, then select **Translate**. The app shows the translated text in the output area.
+
+## Notes
+Translation is provided by an external service through the library; review its terms before use. This project is a simple demonstration and does not include offline translation.
